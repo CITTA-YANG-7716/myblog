@@ -1,0 +1,15 @@
+#公共配置和表明当前配置文件
+
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: pro
+
+mybatis:
+  type-aliases-package: com.yang.entity
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+comment.avatar: /images/avatar.png
+message.avatar: /images/avatar.png
